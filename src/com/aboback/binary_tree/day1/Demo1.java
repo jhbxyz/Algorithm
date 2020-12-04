@@ -1,10 +1,12 @@
-package com.aboback.binary_tree;
+package com.aboback.binary_tree.day1;
+
+import com.aboback.binary_tree.TreeNode;
 
 /**
  * 一棵二叉树共有几个节点
  *
  * @author jhb
- * @date 2020/12/24
+ * @date 2020/12/04
  */
 public class Demo1 {
 

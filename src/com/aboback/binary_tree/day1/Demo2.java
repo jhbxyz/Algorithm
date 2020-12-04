@@ -1,10 +1,12 @@
-package com.aboback.binary_tree;
+package com.aboback.binary_tree.day1;
+
+import com.aboback.binary_tree.TreeNode;
 
 /**
  * 翻转二叉树
  *
  * @author jhb
- * @date 2020/12/24
+ * @date 2020/12/04
  */
 public class Demo2 {
 
@@ -12,7 +14,6 @@ public class Demo2 {
      * 翻转二叉树
      *
      * @param root
-     * @return 个数
      */
     private static TreeNode invertTreeNode(TreeNode root) {
 
