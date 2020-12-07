@@ -10,15 +10,12 @@ import com.aboback.binary_tree.TreeNode;
  */
 public class Demo1 {
 
-    /**
-     * 一棵二叉树共有几个节点
-     *
-     * @param treeNode
-     * @return 个数
-     */
-    private static int getTreeNodeCounts(TreeNode treeNode) {
+    private int count(TreeNode treeNode) {
+
         if (treeNode == null) return 0;
-        return 1 + getTreeNodeCounts(treeNode.left) + getTreeNodeCounts(treeNode.right);
+
+        // 自己加上子树的节点数就是整棵树的节点数
+        return 1 + count(treeNode.left) + count(treeNode.right);
     }
 
 }
