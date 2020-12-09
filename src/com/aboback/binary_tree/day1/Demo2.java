@@ -3,7 +3,8 @@ package com.aboback.binary_tree.day1;
 import com.aboback.binary_tree.TreeNode;
 
 /**
- * 力扣第 226 题「翻转二叉树」
+ * 力扣第 226 题
+ * 「翻转二叉树」
  *
  * @author jhb
  * @date 2020/12/04

@@ -3,7 +3,8 @@ package com.aboback.binary_tree.day1;
 import com.aboback.binary_tree.TreeNode;
 
 /**
- * 力扣第 114 题 将二叉树展开为链表
+ * 力扣第 114 题
+ * 将二叉树展开为链表
  *
  * @author jhb
  * @date 2020/12/04
